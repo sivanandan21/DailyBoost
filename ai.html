@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tools - Daily Boost</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+</head>
+<body class="ai-page">
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <a href="index.html" class="logo">Daily Boost</a>
+            <div class="nav-links">
+                <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                <a href="quotes.html"><i class="fas fa-quote-right"></i> Quotes</a>
+                <a href="tips.html"><i class="fas fa-lightbulb"></i> Tips</a>
+                <a href="ai.html" class="active"><i class="fas fa-robot"></i> AI Tools</a>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <section class="hero">
+            <h1>AI Tools</h1>
+            <p class="subtitle">Simple AI-powered tools for motivation, productivity, and personal growth</p>
+            <p>All tools run directly in your browser with simulated AI - no data sent to servers.</p>
+        </section>
+
+        <!-- AI Tools Grid -->
+        <div class="ai-tools-container">
+            <!-- Tool 1: AI Quote Generator -->
+            <div class="glass-card ai-tool fade-in">
+                <div class="tool-title">
+                    <div class="tool-icon">💬</div>
+                    <h3>AI Quote Generator</h3>
+                </div>
+                <p>Generate a unique, inspirational quote on any topic you choose.</p>
+                
+                <div class="input-group">
+                    <input type="text" id="ai-quote-topic" placeholder="Enter topic (e.g., resilience, creativity, success)">
+                </div>
+                
+                <button id="generate-ai-quote-btn" class="btn" style="width: 100%;">
+                    <i class="fas fa-quote-right"></i> Generate Quote
+                </button>
+                
+                <div id="ai-quote-tool-result" class="result-box">
+                    Your AI-generated quote will appear here...
+                </div>
+            </div>
+
+            <!-- Tool 2: AI Life Tip Generator -->
+            <div class="glass-card ai-tool fade-in">
+                <div class="tool-title">
+                    <div class="tool-icon">💡</div>
+                    <h3>AI Life Tip Generator</h3>
+                </div>
+                <p>Get a personalized life improvement tip based on category.</p>
+                
+                <div class="input-group">
+                    <label for="ai-tip-category" style="color: white; margin-bottom: 10px; display: block;">Select Category:</label>
+                    <select id="ai-tip-category">
+                        <option value="health">Health & Wellness</option>
+                        <option value="productivity">Productivity</option>
+                        <option value="relationships">Relationships</option>
+                        <option value="mindset">Mindset</option>
+                    </select>
+                </div>
+                
+                <button id="generate-ai-tip-btn" class="btn btn-secondary" style="width: 100%;">
+                    <i class="fas fa-lightbulb"></i> Generate Life Tip
+                </button>
+                
+                <div id="ai-tip-tool-result" class="result-box">
+                    Your AI-generated life tip will appear here...
+                </div>
+            </div>
+
+            <!-- Tool 3: AI Text Summarizer -->
+            <div class="glass-card ai-tool fade-in">
+                <div class="tool-title">
+                    <div class="tool-icon">📝</div>
+                    <h3>AI Text Summarizer</h3>
+                </div>
+                <p>Paste any text and get a concise summary (simulated AI).</p>
+                
+                <div class="input-group">
+                    <textarea id="text-to-summarize" placeholder="Paste your text here (minimum 10 words)..."></textarea>
+                </div>
+                
+                <button id="summarize-btn" class="btn" style="width: 100%;">
+                    <i class="fas fa-compress-alt"></i> Summarize Text
+                </button>
+                
+                <div id="summarizer-result" class="result-box">
+                    Your summary will appear here...
+                </div>
+            </div>
+
+            <!-- Tool 4: AI Ask-Anything -->
+            <div class="glass-card ai-tool fade-in">
+                <div class="tool-title">
+                    <div class="tool-icon">❓</div>
+                    <h3>AI Ask-Anything</h3>
+                </div>
+                <p>Ask any question about motivation, productivity, or personal growth.</p>
+                
+                <div class="input-group">
+                    <input type="text" id="ai-question" placeholder="Ask your question here...">
+                </div>
+                
+                <button id="ask-ai-btn" class="btn btn-secondary" style="width: 100%;">
+                    <i class="fas fa-question-circle"></i> Ask AI
+                </button>
+                
+                <div id="ask-ai-result" class="result-box">
+                    Your answer will appear here...
+                </div>
+                
+                <p style="font-size: 0.9rem; color: rgba(255, 255, 255, 0.7); margin-top: 15px;">
+                    <i class="fas fa-info-circle"></i> This is simulated AI. For serious concerns, consult a professional.
+                </p>
+            </div>
+        </div>
+
+        <!-- How AI Tools Work -->
+        <section class="glass-card fade-in" style="margin-top: 60px;">
+            <h2 style="text-align: center;">How Our AI Tools Work</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 30px;">
+                <div style="text-align: center;">
+                    <div style="font-size: 2.5rem; color: #ff7e5f; margin-bottom: 15px;">🔒</div>
+                    <h4>Privacy First</h4>
+                    <p>All processing happens locally in your browser. No data is sent to external servers.</p>
+                </div>
+                <div style="text-align: center;">
+                    <div style="font-size: 2.5rem; color: #36d1dc; margin-bottom: 15px;">⚡</div>
+                    <h4>Instant Results</h4>
+                    <p>Get AI-generated content instantly with no waiting time for server responses.</p>
+                </div>
+                <div style="text-align: center;">
+                    <div style="font-size: 2.5rem; color: #8A2BE2; margin-bottom: 15px;">🎯</div>
+                    <h4>Smart Algorithms</h4>
+                    <p>Our simulated AI uses pattern matching and curated content for relevant responses.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>Daily Boost &copy; <span id="current-year">2023</span> - AI Tools for Personal Growth</p>
+            <p style="font-size: 0.9rem; margin-top: 10px; color: rgba(255, 255, 255, 0.5);">Simulated AI tools that work entirely in your browser</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

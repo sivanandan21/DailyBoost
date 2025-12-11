@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivational Quotes - Daily Boost</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💬</text></svg>">
+</head>
+<body class="quotes-page">
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <a href="index.html" class="logo">Daily Boost</a>
+            <div class="nav-links">
+                <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                <a href="quotes.html" class="active"><i class="fas fa-quote-right"></i> Quotes</a>
+                <a href="tips.html"><i class="fas fa-lightbulb"></i> Tips</a>
+                <a href="ai.html"><i class="fas fa-robot"></i> AI Tools</a>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <section class="hero">
+            <h1>Motivational Quotes</h1>
+            <p class="subtitle">Inspiration from great minds to fuel your journey</p>
+            <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-top: 30px;">
+                <button id="generate-quote-btn" class="btn"><i class="fas fa-random"></i> Random Quote</button>
+                <a href="#ai-quote-generator" class="btn btn-secondary"><i class="fas fa-robot"></i> AI Quote Generator</a>
+            </div>
+        </section>
+
+        <!-- Quotes Grid -->
+        <div class="quotes-container">
+            <!-- Quote 1 -->
+            <div class="glass-card quote-card fade-in">
+                <div class="quote-text">"The only way to do great work is to love what you do."</div>
+                <div class="quote-author">- Steve Jobs</div>
+                <div class="quote-actions">
+                    <button class="btn btn-small copy-quote-btn"><i class="far fa-copy"></i> Copy</button>
+                </div>
+            </div>
+
+            <!-- Quote 2 -->
+            <div class="glass-card quote-card fade-in">
+                <div class="quote-text">"Your time is limited, don't waste it living someone else's life."</div>
+                <div class="quote-author">- Steve Jobs</div>
+                <div class="quote-actions">
+                    <button class="btn btn-small copy-quote-btn"><i class="far fa-copy"></i> Copy</button>
+                </div>
+            </div>
+
+            <!-- Quote 3 -->
+            <div class="glass-card quote-card fade-in">
+                <div class="quote-text">"The future belongs to those who believe in the beauty of their dreams."</div>
+                <div class="quote-author">- Eleanor Roosevelt</div>
+                <div class="quote-actions">
+                    <button class="btn btn-small copy-quote-btn"><i class="far fa-copy"></i> Copy</button>
+                </div>
+            </div>
+
+            <!-- Quote 4 -->
+            <div class="glass-card quote-card fade-in">
+                <div class="quote-text">"It always seems impossible until it's done."</div>
+                <div class="quote-author">- Nelson Mandela</div>
+                <div class="quote-actions">
+                    <button class="btn btn-small copy-quote-btn"><i class="far fa-copy"></i> Copy</button>
+                </div>
+            </div>
+
+            <!-- Quote 5 -->
+            <div class="glass-card quote-card fade-in">
+                <div class="quote-text">"Don't watch the clock; do what it does. Keep going."</div>
+                <div class="quote-author">- Sam Levenson</div>
+                <div class="quote-actions">
+                    <button class="btn btn-small copy-quote-btn"><i class="far fa-copy"></i> Copy</button>
+                </div>
+            </div>
+
+            <!-- Quote 6 -->
+            <div class="glass-card quote-card fade-in">
+                <div class="quote-text">"The only limit to our realization of tomorrow will be our doubts of today."</div>
+                <div class="quote-author">- Franklin D. Roosevelt</div>
+                <div class="quote-actions">
+                    <button class="btn btn-small copy-quote-btn"><i class="far fa-copy"></i> Copy</button>
+                </div>
+            </div>
+
+            <!-- Quote 7 -->
+            <div class="glass-card quote-card fade-in">
+                <div class="quote-text">"Believe you can and you're halfway there."</div>
+                <div class="quote-author">- Theodore Roosevelt</div>
+                <div class="quote-actions">
+                    <button class="btn btn-small copy-quote-btn"><i class="far fa-copy"></i> Copy</button>
+                </div>
+            </div>
+
+            <!-- Quote 8 -->
+            <div class="glass-card quote-card fade-in">
+                <div class="quote-text">"Start where you are. Use what you have. Do what you can."</div>
+                <div class="quote-author">- Arthur Ashe</div>
+                <div class="quote-actions">
+                    <button class="btn btn-small copy-quote-btn"><i class="far fa-copy"></i> Copy</button>
+                </div>
+            </div>
+
+            <!-- Quote 9 -->
+            <div class="glass-card quote-card fade-in">
+                <div class="quote-text">"The way to get started is to quit talking and begin doing."</div>
+                <div class="quote-author">- Walt Disney</div>
+                <div class="quote-actions">
+                    <button class="btn btn-small copy-quote-btn"><i class="far fa-copy"></i> Copy</button>
+                </div>
+            </div>
+
+            <!-- Quote 10 -->
+            <div class="glass-card quote-card fade-in">
+                <div class="quote-text">"Don't be pushed around by the fears in your mind. Be led by the dreams in your heart."</div>
+                <div class="quote-author">- Roy T. Bennett</div>
+                <div class="quote-actions">
+                    <button class="btn btn-small copy-quote-btn"><i class="far fa-copy"></i> Copy</button>
+                </div>
+            </div>
+
+            <!-- Quote 11 -->
+            <div class="glass-card quote-card fade-in">
+                <div class="quote-text">"Success is not final, failure is not fatal: it is the courage to continue that counts."</div>
+                <div class="quote-author">- Winston Churchill</div>
+                <div class="quote-actions">
+                    <button class="btn btn-small copy-quote-btn"><i class="far fa-copy"></i> Copy</button>
+                </div>
+            </div>
+
+            <!-- Quote 12 -->
+            <div class="glass-card quote-card fade-in">
+                <div class="quote-text">"What lies behind us and what lies before us are tiny matters compared to what lies within us."</div>
+                <div class="quote-author">- Ralph Waldo Emerson</div>
+                <div class="quote-actions">
+                    <button class="btn btn-small copy-quote-btn"><i class="far fa-copy"></i> Copy</button>
+                </div>
+            </div>
+
+            <!-- Quote 13 -->
+            <div class="glass-card quote-card fade-in">
+                <div class="quote-text">"The only person you are destined to become is the person you decide to be."</div>
+                <div class="quote-author">- Ralph Waldo Emerson</div>
+                <div class="quote-actions">
+                    <button class="btn btn-small copy-quote-btn"><i class="far fa-copy"></i> Copy</button>
+                </div>
+            </div>
+
+            <!-- Quote 14 -->
+            <div class="glass-card quote-card fade-in">
+                <div class="quote-text">"I can't change the direction of the wind, but I can adjust my sails to always reach my destination."</div>
+                <div class="quote-author">- Jimmy Dean</div>
+                <div class="quote-actions">
+                    <button class="btn btn-small copy-quote-btn"><i class="far fa-copy"></i> Copy</button>
+                </div>
+            </div>
+
+            <!-- Quote 15 -->
+            <div class="glass-card quote-card fade-in">
+                <div class="quote-text">"The best time to plant a tree was 20 years ago. The second best time is now."</div>
+                <div class="quote-author">- Chinese Proverb</div>
+                <div class="quote-actions">
+                    <button class="btn btn-small copy-quote-btn"><i class="far fa-copy"></i> Copy</button>
+                </div>
+            </div>
+
+            <!-- Quote 16 -->
+            <div class="glass-card quote-card fade-in">
+                <div class="quote-text">"You are never too old to set another goal or to dream a new dream."</div>
+                <div class="quote-author">- C.S. Lewis</div>
+                <div class="quote-actions">
+                    <button class="btn btn-small copy-quote-btn"><i class="far fa-copy"></i> Copy</button>
+                </div>
+            </div>
+
+            <!-- Quote 17 -->
+            <div class="glass-card quote-card fade-in">
+                <div class="quote-text">"The mind is everything. What you think you become."</div>
+                <div class="quote-author">- Buddha</div>
+                <div class="quote-actions">
+                    <button class="btn btn-small copy-quote-btn"><i class="far fa-copy"></i> Copy</button>
+                </div>
+            </div>
+
+            <!-- Quote 18 -->
+            <div class="glass-card quote-card fade-in">
+                <div class="quote-text">"The only true wisdom is in knowing you know nothing."</div>
+                <div class="quote-author">- Socrates</div>
+                <div class="quote-actions">
+                    <button class="btn btn-small copy-quote-btn"><i class="far fa-copy"></i> Copy</button>
+                </div>
+            </div>
+
+            <!-- Quote 19 -->
+            <div class="glass-card quote-card fade-in">
+                <div class="quote-text">"Life is 10% what happens to you and 90% how you react to it."</div>
+                <div class="quote-author">- Charles R. Swindoll</div>
+                <div class="quote-actions">
+                    <button class="btn btn-small copy-quote-btn"><i class="far fa-copy"></i> Copy</button>
+                </div>
+            </div>
+
+            <!-- Quote 20 -->
+            <div class="glass-card quote-card fade-in">
+                <div class="quote-text">"The journey of a thousand miles begins with one step."</div>
+                <div class="quote-author">- Lao Tzu</div>
+                <div class="quote-actions">
+                    <button class="btn btn-small copy-quote-btn"><i class="far fa-copy"></i> Copy</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- AI Quote Generator -->
+        <section id="ai-quote-generator" class="glass-card fade-in" style="margin-top: 60px;">
+            <h2 style="text-align: center;"><i class="fas fa-robot"></i> AI Quote Generator</h2>
+            <p style="text-align: center; margin-bottom: 30px;">Generate a custom motivational quote on any topic using AI</p>
+            
+            <div class="input-group">
+                <input type="text" id="quote-topic" placeholder="Enter a topic (e.g., success, courage, perseverance)">
+            </div>
+            
+            <button id="ai-quote-btn" class="btn" style="width: 100%;">
+                <i class="fas fa-magic"></i> Generate AI Quote
+            </button>
+            
+            <div id="ai-quote-result" class="result-box">
+                Your AI-generated quote will appear here...
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>Daily Boost &copy; <span id="current-year">2023</span> - Your daily dose of motivation</p>
+            <p style="font-size: 0.9rem; margin-top: 10px; color: rgba(255, 255, 255, 0.5);">Over 50+ inspirational quotes to fuel your journey</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
