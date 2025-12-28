@@ -1,4 +1,4 @@
-                                      https://sivanandan21.github.io/DailyBoost/index.html
+https://sivanandan21.github.io/DailyBoost/index.html
 
 
 
