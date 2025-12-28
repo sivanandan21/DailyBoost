@@ -1,62 +1,59 @@
-https://sivanandan21.github.io/DailyBoost/index.html
+<!-- 🌸 Sakura Blossom Banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=0:000000,50:8b0055,100:000000&height=220&section=header&text=Daily%20Boost&fontSize=50&fontColor=ffb7d5&fontAlignY=35&animation=twinkling&stroke=ff6fae&strokeWidth=2" />
+</p>
 
+<!-- 🌸 Subtitle (Brush Stroke) -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Sawarabi+Mincho&size=28&duration=3000&color=FFC0CB&center=true&vCenter=true&width=700&lines=Bloom+Into+Your+Best+Self;A+Journey+Of+Small+Steps+And+Bright+Days;Where+Every+Dawn+Feels+New+🌸" />
+</p>
 
+<p align="center">
+  ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿
+</p>
 
-Daily Boost is a simple, modern, and mobile-friendly web application designed to inspire users through motivational quotes, practical life tips, and lightweight AI-powered tools.
-The project is fully built using HTML, CSS, and JavaScript combined in a single file, making it fast, lightweight, and easy to host on any free platform such as InfinityFree.
+---
 
-The website contains three main sections:
+# 🚀 Daily Boost
+**Daily Boost** is a lightweight, mobile-first motivation platform designed for quick inspiration and practical improvement — built entirely using **HTML, CSS & JavaScript** *(single-file architecture)*.
 
-1. Motivational Quotes
+📌 **Live Demo** → https://sivanandan21.github.io/DailyBoost/
 
-This section displays a collection of curated positive quotes inside beautifully designed glassmorphism cards.
-Users can:
+---
 
-View multiple quotes
+## ✨ Highlights
 
-Generate a new random quote
+| Feature | Summary |
+|--------|----------|
+| 🎨 UI | Sakura-inspired theme, glassmorphism, gradients |
+| ⚡ Speed | Instant load — 100% frontend |
+| 📱 Mobile First | Optimized for phones & thumb navigation |
+| 🧠 Offline | No backend or API; works without internet |
+| 🎥 Micro Animations | Smooth motion & UI feedback |
 
-Copy any quote with a single click
+---
 
-2. Life Tips
+## 🌸 Main Sections
 
-This section offers simple and effective life improvement tips covering areas such as study habits, productivity, confidence, discipline, and daily routines.
-It also includes:
+### **1️⃣ Motivational Quotes**
+- Random quote generator
+- Copy-to-clipboard
+- Glassmorphism card display
 
-A random tip generator
+### **2️⃣ Life Tips**
+- Simple habits, productivity, confidence, routines
+- Random tip suggestions
+- Soft UI cards
 
-Soft UI cards that are pleasant and easy to read
+### **3️⃣ Simulated AI Tools** *(no API)*
 
-3. AI Tools (Simulated)
+| Tool | Description |
+|------|--------------|
+AI Quote Generator | Topic-based responses  
+AI Tip Generator | Category suggestions  
+Ask Anything Tool | Rule-based guidance  
+Text Summarizer | Local keyword compression  
 
-The AI section contains small JavaScript-powered tools that mimic AI behavior without using any external API. Tools include:
+---
 
-AI Quote Generator (topic-based)
-
-AI Life Tip Generator (category-based)
-
-AI Text Summarizer (summarizes user input)
-
-Ask-Anything Tool (simple rule-based responses)
-
-The entire project uses:
-
-A modern gradient background
-
-Glassmorphism UI
-
-Smooth animations
-
-Fully responsive design optimized for mobile devices
-
-Daily Boost focuses on being:
-
-Simple
-
-Fast
-
-Beautiful
-
-Helpful for everyday motivation
-
-Since no backend or database is used, the website is completely offline-friendly and easy to maintain. The goal of the project is to provide users with instant motivation and practical guidance through a visually pleasing and highly accessible interface.
+## 🎞️ UI Preview (Concept)
